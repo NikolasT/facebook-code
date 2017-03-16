@@ -19,8 +19,8 @@ echo '<h1>For example</h1>';
 
 echo '<b>Facebook</b> version #1 (https://www.facebook.com/WordPresscom/) - ';
 $fb_page = 'https://www.facebook.com/WordPresscom/';
-$fb_app_id = '2098196497072878';
-$fb_app_secret = '549a0c2ae3b902ad811b310f1aa951e6';
+$fb_app_id = 'YOUR-APP-ID';
+$fb_app_secret = 'YOUR-APP-SECRET';
 $res = $shares_counter_custom->get_facebook( $fb_page, $fb_app_id, $fb_app_secret );
 echo ($res != false) ? number_format($res, 0, ',', ' ').' likes' : $def_text;
 echo '<br/>';
